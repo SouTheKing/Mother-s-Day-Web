@@ -34,7 +34,7 @@ A warm and interactive Mother's Day page built as a personal surprise gift.
 - Replace the placeholder text with your own message
 - Keep the newline formatting if you want line breaks
 
-### Replace the Single Photos
+### Replace the Photos
 
 - Put your photos in the `M Day project` folder (or adjust the paths)
 - Open `index.html`
