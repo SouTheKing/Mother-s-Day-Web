@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Mother's Day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="intro-active">
+    <div class="intro-banner" id="introBanner">
+        <div class="intro-card">
+            <h1>Welcome</h1>
+            <p style="text-align: center; font-size: 30px;">Hello Tama, hope you are having a great day!</p>
+            <button id="startButton">Let's Start</button>
+        </div>
+    </div>
+
+    <div class="background">
+        <div class="glow"></div>
+        <!-- Sakura petals -->
+        <div class="sakura sakura-1"></div>
+        <div class="sakura sakura-2"></div>
+        <div class="sakura sakura-3"></div>
+        <div class="sakura sakura-4"></div>
+        <div class="sakura sakura-5"></div>
+        <div class="sakura sakura-6"></div>
+        <div class="sakura sakura-7"></div>
+        <div class="sakura sakura-8"></div>
+        <div class="sakura sakura-9"></div>
+        <div class="sakura sakura-10"></div>
+        <div class="sakura sakura-11"></div>
+        <div class="sakura sakura-12"></div>
+        <div class="sakura sakura-13"></div>
+        <div class="sakura sakura-14"></div>
+        <div class="sakura sakura-15"></div>
+    </div>
+    
+    <header>
+        <h1>Happy Mother's Day</h1>
+    </header>
+    
+    <main>
+        <section id="photos">
+            <h2>Memories</h2>
+            
+            <!-- Single photos with centered vertical memory text -->
+            <div class="single-photos">
+                <div class="memories-layout">
+                    <div class="photo-column">
+                        <div class="photo-section">
+                            <img src="./Images/photo1.jpg" alt="Memory 1" class="single-photo">
+                        </div>
+                        <div class="photo-section">
+                            <img src="./Images/photo3.jpg" alt="Memory 3" class="single-photo">
+                        </div>
+                        <div class="photo-section">
+                            <img src="./Images/photo5.jpg" alt="Memory 5" class="single-photo">
+                        </div>
+                    </div>
+                    <div class="memory-text">
+                        <span>G</span>
+                        <span>r</span>
+                        <span>o</span>
+                        <span>w</span>
+                        <span>i</span>
+                        <span>n</span>
+                        <span>g</span>
+                        <span> </span>
+                        <span>U</span>
+                        <span>p</span>
+                        <span> </span>
+                        <span>W</span>
+                        <span>i</span>
+                        <span>t</span>
+                        <span>h</span>
+                        <span> </span>
+                        <span>Y</span>
+                        <span>o</span>
+                        <span>u</span>
+                        <span>❤</span>
+                    </div>
+                    <div class="photo-column">
+                        <div class="photo-section">
+                            <img src="./Images/photo2.jpg" alt="Memory 2" class="single-photo">
+                        </div>
+                        <div class="photo-section">
+                            <img src="./Images/photo4.jpg" alt="Memory 4" class="single-photo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="slideshow">
+            <h2>Special Moments</h2>
+            
+            <!-- Slideshow -->
+            <div class="slideshow-container">
+                <!-- Add your slideshow photos here. Total of 10 photos. -->
+                <div class="slide fade">
+                    <img src="./Images/slide1.jpg" alt="Slideshow 1">
+                </div>
+                <div class="slide fade">
+                    <img src="./Images/slide2.jpg" alt="Slideshow 2">
+                </div>
+                <div class="slide fade">
+                    <img src="./Images/slide3.jpg" alt="Slideshow 3">
+                </div>
+                <div class="slide fade">
+                    <img src="./Images/slide4.jpg" alt="Slideshow 4">
+                </div>
+                <div class="slide fade">
+                    <img src="./Images/slide5.jpg" alt="Slideshow 5">
+                </div>
+                <div class="slide fade">
+                    <img src="./Images/slide6.jpg" alt="Slideshow 6">
+                </div>
+                <div class="slide fade">
+                    <img src="./Images/slide7.jpg" alt="Slideshow 7">
+                </div>
+                <div class="slide fade">
+                    <img src="./Images/slide8.jpg" alt="Slideshow 8">
+                </div>
+                <div class="slide fade">
+                    <img src="./Images/slide9.jpg" alt="Slideshow 9">
+                </div>
+                <div class="slide fade">
+                    <img src="./Images/slide10.jpg" alt="Slideshow 10">
+                </div>
+                
+                <!-- Navigation dots -->
+                <div class="dots"></div>
+            </div>
+        </section>
+        
+        <section id="message">
+            <h2>A Message for You</h2>
+            <div id="typing-text"></div>
+            ❤❤❤
+            <!-- Add your personal message here. The text will be typed out automatically. -->
+            <!-- Replace the content in script.js where it says 'YOUR_MESSAGE_HERE' -->
+        </section>
+    </main>
+    
+    <!-- Background music -->
+    <audio id="bg-music" loop>
+        <!-- Add your music file here. Replace 'music.mp3' with your audio file path. -->
+        <source src="./Images/5 Minute Timer  Lofi Hip Hop Mix - Beats to Relax or Study.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    
+    <!-- Lightbox modal -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close">&times;</span>
+            <img class="lightbox-img" id="lightbox-img" src="" alt="Full size image">
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
